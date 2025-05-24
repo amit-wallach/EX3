@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit Wallach Jungle</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <button id="toggle-music" class="music-btn">🔊</button>
+
+  <div class="header">
+    <h1>Once Upon a Jungle…</h1>
+    <h2>Let the Story Begin</h2>
+  </div>
+
+  <audio id="bg-music" src="sounds/background.mp3" loop></audio>
+
+  <div class="animal-container">
+    <div class="animal-card">
+      <img src="images/animals/bear.jpeg" alt="Bear" class="animal b" data-sound="bear.mp3" />
+      <p class="animal-name">Bear <span class="shortcut">[B]</span></p>
+    </div>
+    <div class="animal-card">
+      <img src="images/animals/elephent.jpeg" alt="Elephant" class="animal e" data-sound="elephant.mp3" />
+      <p class="animal-name">Elephant <span class="shortcut">[E]</span></p>
+    </div>
+    <div class="animal-card">
+      <img src="images/animals/snake.jpeg" alt="Snake" class="animal s" data-sound="snake.mp3" />
+      <p class="animal-name">Snake <span class="shortcut">[S]</span></p>
+    </div>
+    <div class="animal-card">
+      <img src="images/animals/tigris2.jpeg" alt="Tigris" class="animal t" data-sound="tigris.wav" />
+      <p class="animal-name">Tigris <span class="shortcut">[T]</span></p>
+    </div>
+    <div class="animal-card">
+      <img src="images/animals/monkey.jpeg" alt="Monkey" class="animal m" data-sound="monkey.wav" />
+      <p class="animal-name">Monkey <span class="shortcut">[M]</span></p>
+    </div>
+    <div class="animal-card">
+      <img src="images/animals/owl.jpeg" alt="Owl" class="animal o" data-sound="owl.mp3" />
+      <p class="animal-name">Owl <span class="shortcut">[O]</span></p>
+    </div>
+    <div class="animal-card">
+      <img src="images/animals/wolf.jpeg" alt="Wolf" class="animal w" data-sound="wolf.wav" />
+      <p class="animal-name">Wolf <span class="shortcut">[W]</span></p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
